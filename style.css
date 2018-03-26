@@ -28,17 +28,26 @@ div {
     width:50%;
     background: none;
     float:left;
+    
 }
 .col_2 {
-    width:23%;
+    width:25%;
     background: none;
-    display:inline-block;
-    margin: 0 10px;
+    float:left;
 }
 .col_3 {
     width:25%;
-    float:right;
     background: none;
+    display:inline-block;
+}
+.col_1 div {
+  margin:10px 5px 10px 0;
+}
+.col_2 div {
+  margin:10px 5px 10px 5px;
+}
+.col_3 div {
+  margin:10px 0 10px 5px;
 }
 .col1raw1 {
     height:150px;
